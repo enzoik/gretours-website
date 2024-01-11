@@ -1,17 +1,19 @@
 import React from "react";
 import "./Slide.css";
 
-function Slide({ background, title, content }) {
+function Slide({ background, title, caption, active, onClick }) {
   return (
-    <>
-      <div data-background={background} className="container">
-        <div className="avatar">
-          <img alt={title} src={background} />
-        </div>
+    <div
+      className={`container ${active ? "active" : ""}`}
+      onClick={onClick}
+      style={{ backgroundImage: `url(${background})` }}
+    >
+      <div className="content">
+        <div className="icon"></div>
         <h4 className="title">{title}</h4>
-        <article className="content">{content}</article>
+        <article className="caption">{caption}</article>
       </div>
-    </>
+    </div>
   );
 }
 
