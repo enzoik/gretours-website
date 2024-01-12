@@ -1,7 +1,13 @@
 import React from "react";
+import Header from "../containers/header/Header";
 
 function Tours() {
-  return <div>Tours</div>;
+  return (
+    <>
+      <Header />
+      <div>Tours</div>
+    </>
+  );
 }
 
 export default Tours;

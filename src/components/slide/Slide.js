@@ -11,7 +11,12 @@ function Slide({ background, title, caption, active, onClick }) {
       <div className="content">
         <div className="icon"></div>
         <h4 className="title">{title}</h4>
-        <article className="caption">{caption}</article>
+        <article className="caption">
+          <p>{caption}</p>
+          <div className="cta">
+            <a href="/">Explore</a>
+          </div>
+        </article>
       </div>
     </div>
   );

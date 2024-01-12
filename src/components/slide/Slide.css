@@ -6,8 +6,8 @@
     background-position: center center;
     background-size: cover;
     height: 100%;
-    border-radius: calc(0.02*100vh);
-    width: calc(50%/4);
+    border-radius: calc(0.008*100vh);
+    width: calc(30%/4);
     transition: width 0.1s ease-in-out;
     cursor: pointer;
 }
@@ -15,18 +15,49 @@
 .content{
     padding: 10%;
     width: 100%;
+    position: relative;
+}
+
+.content:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.96));
+    z-index: 90;
+
+}
+
+.title{
+    color: #fff;
+    font-size: 3em;
+    line-height: 1.2;
+    margin: 0;
+    z-index: 100;
+    position: relative;
+}
+
+.caption{
+    color: white;
+    position: relative;
+    z-index: 100;
 }
 
 .active{
-    width: 50%;
+    width: 70%;
 }
 
 .icon{
-    width: 50px;
-    height: 50px;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
-    background-color: rgb(161, 206, 176);
+    background-color: rgba(71, 192, 135, 0.708);
     margin: 0 auto;
+    position: relative;
+    z-index: 100;
 }
 .caption{
     text-align: justify;    
@@ -46,4 +77,20 @@
 
 .container.active .icon{
     margin: 0;
+}
+
+.cta{
+    text-align: end;
+}
+
+.cta a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: medium;
+    transition: all 0.3s ease-in-out;
+}
+
+.cta a:hover{
+    margin-right: 10px;
 }

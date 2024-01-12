@@ -1,0 +1,18 @@
+.header{
+    position: sticky;
+    top: 50px;
+    margin:0 auto;
+}
+
+.top{
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
+}
+
+.logo{
+    margin-right: auto;
+}
