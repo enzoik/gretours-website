@@ -9,35 +9,35 @@ function Slider() {
       caption:
         "GreTours offer you the ultimate experience. Indulge with us as we take you to the best attractions and destinations in East Africa. With over 10 years of service, we know all the corners and angles of attraction and we gurantee you/'ll live to tell the story. Our guides are from a selection of the best and they know what they are doing and will leave with many blisssful moments you will cherish for your lifetime",
       active: true,
-      background: "/img/dance.jpg",
+      background: "/img/crested_crane.png",
     },
     {
-      title: "Wild Destinations",
+      title: "Wild Adventure",
       caption:
         "GreTours offer you the ultimate experience. Indulge with us as we take you to the best attractions and destinations in East Africa. With over 10 years of service, we know all the corners and angles of attraction and we gurantee you/'ll live to tell the story. Our guides are from a selection of the best and they know what they are doing and will leave with many blisssful moments you will cherish for your lifetime",
       active: false,
-      background: "/img/helloword.jpg",
+      background: "/img/wild.jpg",
     },
     {
-      title: "City Tours",
+      title: "Destinations",
       caption:
         "GreTours offer you the ultimate experience. Indulge with us as we take you to the best attractions and destinations in East Africa. With over 10 years of service, we know all the corners and angles of attraction and we gurantee you/'ll live to tell the story. Our guides are from a selection of the best and they know what they are doing and will leave with many blisssful moments you will cherish for your lifetime",
       active: false,
-      background: "/img/banner.png",
+      background: "/img/destination.jpg",
     },
     {
       title: "Camp Xperience",
       caption:
         "GreTours offer you the ultimate experience. Indulge with us as we take you to the best attractions and destinations in East Africa. With over 10 years of service, we know all the corners and angles of attraction and we gurantee you/'ll live to tell the story. Our guides are from a selection of the best and they know what they are doing and will leave with many blisssful moments you will cherish for your lifetime",
       active: false,
-      background: "/img/helloword.jpg",
+      background: "/img/camp.jpg",
     },
     {
       title: "Ultimate Xperience",
       caption:
         "GreTours offer you the ultimate experience. Indulge with us as we take you to the best attractions and destinations in East Africa. With over 10 years of service, we know all the corners and angles of attraction and we gurantee you/'ll live to tell the story. Our guides are from a selection of the best and they know what they are doing and will leave with many blisssful moments you will cherish for your lifetime",
       active: false,
-      background: "/img/helloword.jpg",
+      background: "/img/xperience.jpg",
     },
   ]);
 
